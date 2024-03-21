@@ -9,6 +9,7 @@ The scripts extensively use CDO (Climate Data Operators) by Schulzweida, U. (202
 
 
 NOTES BEFORE RUNNING: 
+- Unzip hotspots_scripts
 - The folder "data_per_hotspot" must contain the netcdf data for which you want to compute the hotspots. Data are not included in this repository. 
 - In this example, the folder GFDL-ESM4_con_0-200m_o2_wholefield_1950-2014 refers to the historical period: after running, it will contain the hotspots for the historical period. 
 - In this example, the folder GFDL-ESM4_con_0-200m_o2_wholefield_2036-2100 to the future period, and after running it will contain the hotspots for the future period.
