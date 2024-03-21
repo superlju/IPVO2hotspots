@@ -6,7 +6,15 @@ The Hotspots calculation follows the approach introduced in Diffenbaugh and Gior
 The SED formulation follows the definition provided in Turco et al (2015). 
 The scripts extensively use CDO (Climate Data Operators) by Schulzweida, U. (2022) to perform all the calculations.
 
+NOTE: 
+1) Run the scripts for the Historical period first.
+2) Then run the scripts for the future period.
 
+This is because the code computes the 95th percentile over the historical, and normalizes the both the historical and the future by the same 
+amount. This is why the historical must come first. 
+
+
+*********************************************
 References: 
 
 Diffenbaugh, N.S., Giorgi, F. and Pal, J.S.: Climate change hotspots in the United States. Geophys Res Lett 35, doi:10.1029/2008GL035075 , 2008. 
