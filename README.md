@@ -14,7 +14,7 @@ NOTES BEFORE RUNNING:
 - In this example, the folder GFDL-ESM4_con_0-200m_o2_wholefield_1950-2014 refers to the historical period: after running, it will contain the hotspots for the historical period. 
 - In this example, the folder GFDL-ESM4_con_0-200m_o2_wholefield_2036-2100 to the future period, and after running it will contain the hotspots for the future period.
 - Within the folder GFDL-ESM4_con_0-200m_o2_wholefield_1950-2014 you will have to edit the scripts
-  "1_compute_indicators_1950-2014.sh" and "3_compute_SED_1950-2014" according to your file names and time periods for which you compute the hotspots. For example, in Novi et al 2024, the historical period for this model is 1950-2014 and the two time periods used to compute the historical hotspots are 1950-1981 and 1983-2014, which makes 96 months total for the calculation of the indicators 3 and 6 in the scripts (32 full years, seasonally divided, that is 32*3 =96). 
+  "1_compute_indicators_1950-2014.sh" and "3_compute_SED_1950-2014" according to your file names and time periods for which you compute the hotspots. For example, in Novi et al 2024, the historical period for this model is 1950-2014 and the two time periods used to compute the historical hotspots are 1950-1981 and 1983-2014 for this model, which makes 96 months total for the calculation of the indicators 3 and 6 in the scripts (32 full years, seasonally divided, that is 32*3 =96). 
 
 - Within the folder GFDL-ESM4_con_0-200m_o2_wholefield_2036-2100 you will have to edit the scripts
   "1_compute_indicators_2036-2100.sh" and "3_compute_SED_2036-2100" according to your file names and time periods for which you compute the hotspots.
