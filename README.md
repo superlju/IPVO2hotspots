@@ -43,6 +43,16 @@ OUTPUT:
 
 - The folder GFDL-ESM4_con_0-200m_o2_wholefield_2036-2100: same as historical folder, but for the future period. 
 
+
+***********************
+ Additional Notes:
+***********************
+
+- An example of how to vertically interpolate your input.nc model data on 33 vertical levels (specified below) using cdo is the following: 
+cdo intlevel,0,10,20,30,50,75,100,125,150,200,250,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1750,2000,2500,3000,3500,4000,4500,5000,5500 input.nc output.nc
+
+This interpolates the input.nc into 33 vertical level as output.nc
+
 *********************************************
 References: 
 *********************************************
